@@ -21,21 +21,21 @@
                         </div>
                         <div class="control-group">
                             <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                                <label>Opis</label>
-                                <input class="form-control" type="text" name="opis" placeholder="Vnesite priimek"
-                                    required="required" />
+                                <label>Opis</label></br>    
+                                <textarea name="opis" cols="58" rows="5" class="form-control" id="message" 
+                                    placeholder="Vnesi opis kluba"></textarea>
                                 </br>
                             </div>
                         </div>
                         <div class="control-group">
                             <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                                <label>E-pošta</label>
-                                <input class="form-control" type="email" name="email"
+                                <label>Grb</label>
+                                <input class="form-control" type="file" name="grb"
                                     placeholder="Vnesite elektronsko pošto" required="required" /> </br>
                             </div>
                         </div>
                         <div class="form-group"><button class="btn btn-primary btn-lg" id="sendMessageButton"
-                                type="submit">Pošlji</button></div></br>
+                                type="submit">Dodaj</button></div></br>
                     </form>
                 </div>
             </div>
