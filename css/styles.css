@@ -12181,3 +12181,26 @@ textarea.form-control-lg {
   width: 4rem;
   font-size: 2rem;
 }
+
+/*Oblika komentarja*/
+
+.komentar{
+  background-color: #dee2e6;
+  border-color: #dee2e6;
+  border-width: 2px;
+  border-style: solid;
+
+  margin-bottom: 5px;
+
+  padding: 15px;
+}
+
+.komentar .oseba {
+  font-style: italic;
+  font-size: 0.8em;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.komentar .vsebina{
+  
+}

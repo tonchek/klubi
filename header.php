@@ -9,7 +9,7 @@ include_once "session.php";
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Heroic Features - Start Bootstrap Template</title>
+        <title>Klubi</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Bootstrap icons-->
@@ -33,7 +33,7 @@ include_once "session.php";
                         <?php 
                             if(isset($_SESSION['id_osebe'])){
                                 $ime = $_SESSION['ime'];
-                                echo '<li class="nav-item"><a class="nav-link active" aria-current="page" 
+                                echo '<li class="nav-item"><a class="nav-link" aria-current="page" 
                                     href="clubs.php">Klubi</a></li>';
                                 echo '<li class="nav-item"><a class="nav-link active" aria-current="page" 
                                     href="logout.php">Odjava ('.$ime.')</a></li>';
@@ -41,9 +41,7 @@ include_once "session.php";
                             else{
                                 echo '<li class="nav-item"><a class="nav-link" href="login.php">Prijava</a></li>';
                                 echo '<li class="nav-item"><a class="nav-link" href="register.php">Registracija</a></li>';
-                            }
-                        ?>
-                        
+                            } ?>     
                     </ul>
                 </div>
             </div>
